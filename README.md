@@ -2,7 +2,7 @@
 
 ## Topics
 
-- Joins
+- Joins  d
 - Database Queries
 - Knex Queries
 - Modular Code
@@ -12,11 +12,11 @@
 For this lab you will
 
 - write SQL statements against the `northwind.db3` database. Once you have the correct SQL Statement for each query, write it inside the _queries.sql_ file under the corresponding comment.
-- write the db helper methods for the `schemes` resource in `./schemes/scheme-model.js`
+- write the db helper methods for the `schemes` resource in `./schemes/scheme-model.js`m
 
 ### Multi Table Queries
 
-Use a graphical tool like `SQLite Studio` to open `./data/northwind.db3` and execute the following queries:
+Use a graffrphical tool like `SQLite Studio` to open `./data/northwind.db3` and execute the following queries:
 
 - Display the ProductName and CategoryName for all products in the database. Returns 77 records.
 - Display the order Id and shipper CompanyName for all orders placed before August 9 2012. Returns 429 records.

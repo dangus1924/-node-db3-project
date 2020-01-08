@@ -1,7 +1,6 @@
-const express = require('express');
-
+const express = require('express')
 const Schemes = require('./scheme-model.js');
-
+const db = require('../data/db-config')
 const router = express.Router();
 
 router.get('/', (req, res) => {

@@ -2,7 +2,7 @@
 
 ## Topics
 
-- Joins  d
+- Joins 
 - Database Queries
 - Knex Queries
 - Modular Code

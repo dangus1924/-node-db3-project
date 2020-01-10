@@ -12,7 +12,9 @@ SELECT Product.ProductName, OrderDetail.Quantity FROM Product
 JOIN OrderDetail ON Product.Id = OrderDetail.ProductId
 WHERE OrderDetail.OrderId = 10251
 -- Display the OrderID, Customer's Company Name and the employee's LastName for every order. All columns should be labeled clearly. Displays 16,789 records.
-SELECT O.Id, Customer.CompanyName, Employee.LastName from  "Order" as O
+SELECT O.Id, Customer.CompanyName, Employee.LastName from  "Order" as O 
+-- the spec requires you to clearly lable the columns.  
+-- The id column in particular needs to be labled. How would you do that?
 JOIN Customer
 ON O.CustomerId = Customer.Id
 JOIN Employee
